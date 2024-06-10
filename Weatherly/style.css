@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://www.color-meanings.com/wp-content/uploads/2023/08/pink-and-purple-sunset-with-palm-trees.jpeg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 105vh;
+    margin: 0;
+}
+#weather-container{
+    background: #c97dd263;
+    opacity: 0.7;
+    max-height:fit-content;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255, 0.2);
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+h2,label,p{
+    color: white;
+    
+}
+input{
+    width: calc(100% - 16px);
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+button{
+    background: #debff4;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 80px;
+    font-size: 15px;
+}
+button:hover{
+    background: #be0cf4;
+}
+#temp-div p{
+    font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+#weather-info{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+#weather-icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+    display: none;
+}
+#hourly-forecast{
+    margin-top: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hourly-item{
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+.hourly-item img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+#hourly-heading{
+    color: #fff;
+    margin-top: 10px;
+}
